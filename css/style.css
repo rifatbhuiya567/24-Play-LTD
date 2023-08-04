@@ -1,0 +1,1011 @@
+/* 
+Author Name	: Rifat Bhuiya
+Template Name	: 24 Play Ltd Website
+Author Email : rifatbhuiya.personal@gmail.com
+*/
+
+:root {
+    --common-box-shadow: .5px .5px .5px 0 rgba(0, 0, 0, 0.3);
+    --primary-color: #000f62;
+    --secondary-color: #0156f6;
+    --white-color: #fff;
+    --black-color: #000;
+    --off-white-color: #f5f5f5;
+    --transition: all .5s ease;
+    --common-border-radius: 3px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+a,
+p,
+li,
+ol,
+ul,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #62646a;
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inFlex {
+    display: inline-flex;
+    align-items: center;
+}
+
+.sectionWaysGap {
+    padding: 80px 0;
+}
+
+.sectionGap {
+    padding-top: 48px;
+}
+
+.textGradient {
+    background: -webkit-linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.colorGradient {
+    background: rgb(0,15,98);
+    background: linear-gradient(90deg, rgba(0,15,98,1) 0%, rgba(1,86,246,1) 100%);
+}
+
+.input,
+.textarea {
+    border: 1px solid rgba(1, 87, 246, 0.250);
+    padding: 2px 6px;
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    color: var(--black-color);
+    font: 500 15px/1.55 'Poppins', sans-serif;
+}
+
+label {
+    text-transform: capitalize;
+    color: var(--black-color);
+    font: 500 19px/1.55 'Poppins', sans-serif;
+}
+
+label span {
+    color: var(--secondary-color);
+}
+
+.input:hover, 
+.input:focus,
+.textarea:hover,
+.textarea:focus {
+    border: 1px solid rgba(1, 87, 246, 0.550);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    text-transform: capitalize;
+    font: 400 15px/1.55 'Poppins', sans-serif;
+}
+
+.btnModelOne {
+    padding: 8px 20px;
+    border: transparent;
+    gap: 6px;
+    color: var(--white-color);
+    text-transform: capitalize;
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.btnModelOne:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sectionHeading h3 {
+    font: 700 33px/1.5 'Poppins', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sectionHeading h3::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 120px);
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.pageBackground {
+    padding: 12px;
+    background-color: var(--white-color);
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    box-shadow: .5px .5px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.pageIntro h2 {
+    color: var(--primary-color);
+    font: 200 42px/1.3 'Poppins', sans-serif;
+}
+
+.pageIntro p,
+.pageContent p {
+    font: 400 14px/1.55 'Poppins', sans-serif;
+}
+
+.pageIntro a,
+.pageContent a {
+    color: #62646a;
+    text-decoration: underline;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.pageIntro a:hover,
+.pageContent a:hover {
+    color: var(--primary-color);
+}
+
+.pageIntro h5 {
+    margin: 12px 0 4px;
+    color: var(--black-color);
+    font: 500 21px/1.3 'Poppins', sans-serif;
+}
+
+.pageIntro ul,
+.pageContent ul  {
+    margin-left: 16px;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.pageIntro ul li,
+.pageContent ul li {
+    padding: 2px 0;
+    font: 400 14px/1.55 'Poppins', sans-serif;
+}
+
+.pageContent h3 {
+    color: var(--primary-color);
+    text-align: center;
+    margin: 32px 0 8px;
+    font: 400 33px/1.5 'Poppins', sans-serif;
+}
+
+.pageContent ul {
+    margin-top: 12px;
+} 
+
+.pageContent p {
+    margin: 8px 0;
+}
+
+.pageContent h4 {
+    margin-top: 16px;
+    color: var(--black-color);
+    font: 500 27px/1.3 'Poppins', sans-serif; 
+}
+
+.pageContent h5 {
+    margin-top: 12px;
+    color: var(--black-color);
+    font: 400 21px/1.3 'Poppins', sans-serif; 
+}
+
+/*  
+    =============
+    Common_CSSEnd
+    =============
+    
+*/
+
+.myNavbar {
+    padding: 2px 0;
+    background-color: var(--white-color);
+    box-shadow: var(--common-box-shadow);
+}
+
+.myNavbar .myLogo img {
+    width: 80px;
+}
+
+.navAnim {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    animation: myNavbarAnim .5s linear;
+    -webkit-animation: myNavbarAnim .5s linear;
+}
+
+@keyframes myNavbarAnim {
+    0% {
+        top: -32px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.mainHeaderUl li {
+    padding: 0 4px;
+}
+
+.mainHeaderUl li a {
+    color: var(--primary-color);
+    font: 600 17px/1.55 'Poppins', sans-serif;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.mainHeaderUl li .active,
+.mainHeaderUl li a:focus,
+.mainHeaderUl li a:hover {
+    color: var(--secondary-color) !important;
+}
+
+.mainHeaderUl li ul li {
+    padding-bottom: 2px;
+}
+
+.mainHeaderUl li ul li .active,
+.mainHeaderUl li ul li a:hover {
+    color: var(--white-color) !important;
+    background-color: var(--secondary-color);
+}
+
+/*  
+    =============
+    Header_CSSEnd
+    =============
+
+*/
+
+#service {
+    background-color: var(--white-color);
+}
+
+.serviceContent {
+    padding: 16px 10px;
+    background-color: var(--off-white-color);
+    border: 1px solid rgba(1, 87, 246, 0.150);
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.serviceContent:hover {
+    border: 1px solid rgba(1, 87, 246, 0.550);
+}
+
+.serviceContent .img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.serviceContent .img::after {
+    position: absolute;
+    content: '';
+    bottom: -8px;
+    left: 50%;
+    height: 2px;
+    width: 60px;
+    background-color: var(--black-color);
+    opacity: .7;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.serviceContent:hover .img::after {
+    opacity: 1;
+    width: 80px;
+}
+
+.serviceContent img {
+    height: 60px;
+    width: 60px;
+    opacity: .7;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+} 
+
+.serviceContent:hover img {
+    opacity: 1;
+}
+
+.serviceContent .text {
+    margin-top: 20px;
+} 
+
+.serviceContent h4 {
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: var(--black-color);
+    font: 600 27px/1.5 'Poppins', sans-serif;
+}
+
+.serviceContent p {
+    font: 500 14px/1.5 'Poppins', sans-serif;
+}
+
+.serviceInner .img {
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.serviceInner .img::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(1,86,246);
+    background: linear-gradient(142deg, rgba(1,86,246,0.25171787464985995) 0%, rgba(0,15,98,0.8511576505602241) 100%);
+    z-index: -1;
+}
+
+.serviceInner .text {
+    width: 100%;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+}
+
+.serviceInner h5 {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+    letter-spacing: 1px;
+    font: 400 21px/1.5 'Permanent Marker', 'cursive';
+}
+
+/*  
+    =============
+    OurService_CSSEnd
+    =============
+
+*/
+
+.arkServerContent h3 {
+    color: var(--black-color);
+    font: 700 33px/1.5 'Poppins', sans-serif;
+}
+
+.arkServerContent p {
+    margin: 16px 0;
+    font: 400 17px/1.5 'Poppins', sans-serif;
+} 
+
+.arkServerContent .arkAction {
+    margin-top: 20px;
+} 
+
+/*  
+    =============
+    ArkServer_CSSEnd
+    =============
+
+*/
+
+footer {
+    background-color: #00020e;
+}
+
+.copyRight span {
+    color: #d1d1d1;
+    font: 500 17px/1.5 'Poppins', sans-serif;
+}
+
+.footerService h4 {
+    text-transform: uppercase;
+    color: #d1d1d1;
+    font: 600 27px/1.5 'Poppins', sans-serif;
+}
+
+.footerService ul {
+    margin-top: 12px;
+}
+
+.footerService ul li {
+    padding: 4px 0;
+}
+
+.footerService ul li a {
+    text-transform: capitalize;
+    color: #949699;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    font: 400 17px/1.5 'Poppins', sans-serif;
+}
+
+.footerService ul li a:hover,
+.footerService ul li .active {
+    color: #d1d1d1;
+    text-decoration: underline;
+}
+
+.supportMail a {
+    color: #949699;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    text-decoration: underline;
+    font: 400 17px/1.5 'Poppins', sans-serif;
+}
+
+.footerSocialLinks {
+    margin-top: 8px;
+}
+
+.footerSocialLinks ul {
+    gap: 6px;
+}
+
+.footerSocialLinks ul li a {
+    font-size: 32px;
+    color: #949699;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.supportMail a:hover,
+.footerSocialLinks ul li a:hover {
+    color: #d1d1d1;
+}
+
+.paymentOption p {
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.paymentOption ul {
+    gap: 4px;
+}
+
+.paymentOption ul img {
+    width: 48px;
+}
+
+/*  
+    =============
+    Footer_CSSEnd
+    =============
+
+*/
+
+/* 
+--------------------------------------------------
+    New page break area - Game Server page
+--------------------------------------------------
+*/
+
+.cardContent {
+    background-color: var(--white-color);
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    padding: 8px 6px 12px;
+    border: 1px solid rgba(1, 87, 246, 0.250);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.cardContent:hover {
+    border: 1px solid rgba(1, 87, 246, 0.550);
+}
+
+.cardContent .img img {
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cardInner h5 {
+    padding: 12px 0;
+    color: var(--black-color);
+    font: 500 21px/1.5 'Poppins', sans-serif;
+}
+
+/*  
+    =============
+    GameServer_CSSEnd
+    =============
+
+*/
+
+/* 
+--------------------------------------------------
+    New page break area - Dedicated Server page
+--------------------------------------------------
+*/
+
+.dedicatedServerContent {
+    padding: 16px 8px;
+    background-color: var(--white-color);
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    border: 1px solid rgba(1, 87, 246, 0.250);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.dedicatedServerContent:hover {
+    border: 1px solid rgba(1, 87, 246, 0.550);
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+.dedicatedServerContent .heading {
+    text-align: center;
+    color: var(--black-color);
+    font: 600 27px/1.5 'Poppins', sans-serif;
+}
+
+.dedicatedServerContent .img {
+    margin: 8px 0;
+}
+
+.dedicatedServerContent .img img {
+    height: 120px;
+    width: 120px;
+}
+
+.dedicatedServerContent ul li {
+    gap: 6px;
+}
+
+.dedicatedServerContent ul li i {
+    font-size: 15px;
+    color: var(--secondary-color);
+}
+
+.dedicatedServerContent ul li p {
+    padding: 4px 0;
+    color: var(--black-color);
+    font: 400 17px/1.55 'Poppins', sans-serif;
+}
+
+.dedicatedAction {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*  
+    =============
+    Dedicated_CSSEnd
+    =============
+
+*/
+
+/* 
+--------------------------------------------------
+    New page break area - Special Offer Offer Server page
+--------------------------------------------------
+*/
+
+.specialOfferBanner img {
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+}
+
+.specialOfferText p {
+    padding: 4px 0;
+    color: var(--black-color);
+    font: 400 17px/1.55 'Poppins', sans-serif;
+}
+
+.specialOfferText .bold {
+    font-weight: 700;
+}
+
+/*  
+    =============
+    SpecialOfferBanner_CSSEnd
+    =============
+
+*/
+
+/* 
+--------------------------------------------------
+    New page break area - About page
+--------------------------------------------------
+*/
+
+#aboutUs .sectionGap {
+    padding-top: 20px;
+}
+
+.aboutContent h1 {
+    color: var(--black-color);
+    font: 700 52px/1.5 'Poppins', sans-serif;
+    margin-bottom: 4px;
+}
+
+.aboutContent h2 {
+    color: var(--black-color);
+    font: 600 42px/1.5 'Poppins', sans-serif;
+}
+
+.aboutContent h3 {
+    color: var(--black-color);
+    font: 600 33px/1.5 'Poppins', sans-serif;
+}
+
+.aboutContent h4 {
+    color: var(--black-color);
+    font: 600 27px/1.5 'Poppins', sans-serif;
+}
+
+.aboutContent h5 {
+    color: var(--black-color);
+    font: 500 21px/1.5 'Poppins', sans-serif;
+}
+
+.aboutContent p {
+    margin-top: 6px;
+    font: 400 17px/1.5 'Poppins', sans-serif;
+}
+
+/*  
+    =============
+    About_CSSEnd
+    =============
+
+*/
+
+/* 
+--------------------------------------------------
+    New page break area - Contact page
+--------------------------------------------------
+*/
+
+.formBackground {
+    margin-top: 40px;
+    background-color: var(--white-color);
+    padding: 20px 10px;
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    box-shadow: .5px .5px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.contactDetail h4 {
+    text-transform: capitalize;
+    color: var(--black-color);
+    font: 500 27px/1.55 'Poppins', sans-serif;
+    margin-bottom: 16px;
+}
+
+.mailAddress h5 {
+    color: var(--secondary-color);
+    font: 300 21px/1.55 'Poppins', sans-serif;
+}
+
+.mailAddress .inFlex {
+    gap: 6px;
+    color: var(--primary-color);
+}
+
+.mailAddress .inFlex a {
+    font-size: 15px;
+    color: var(--primary-color);
+    text-decoration: underline;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.mailAddress .inFlex a:hover {
+    color: rgba(1, 87, 246, 0.550);
+}
+
+.contactForm label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.contactForm input {
+    width: 100%;
+    height: 32px;
+}
+
+.contactForm textarea {
+    width: 100%;
+    height: 160px;
+    resize: none;
+}
+
+.contactAction {
+    margin-top: 16px;
+    text-align: center;
+}
+
+/*  
+    =============
+    Contact_CSSEnd
+    =============
+
+*/
+
+/* 
+--------------------------------------------------
+    New page break area - Sponsorship page
+--------------------------------------------------
+*/
+
+.sponsorContent {
+    padding: 12px;
+    background-color: var(--white-color);
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    box-shadow: .5px .5px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.sponsorContent h4 {
+    color: var(--black-color);
+    font-size: 27px;
+}
+
+.sponsorContent h5 {
+    color: var(--black-color);
+    font-size: 21px;
+}
+
+.sponsorContent p {
+    font: 400 17px/1.55 'Poppins', sans-serif;
+}
+
+.sponsorContent p a {
+    color: #62646a;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.sponsorContent p a:hover {
+    color: #000f62;
+}
+
+.sponsorList ul {
+    margin-left: 16px;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.sponsorList ul li {
+    padding: 2px 0;
+}
+
+.sponsorAction {
+    background-color: var(--off-white-color);
+    margin-top: 24px;
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    text-align: center;
+    padding: 12px 12px;
+    box-shadow: .5px .5px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.sponsorAction h6 {
+    color: var(--primary-color);
+    font: 400 17px/1.55 'Poppins', sans-serif;
+}
+
+.sponsorAction .img {
+    margin: 16px 0;
+}
+
+.sponsorAction a {
+    gap: 8px;
+}
+
+/*  
+    =============
+    Sponsorship_CSSEnd
+    =============
+
+*/
+
+/* 
+--------------------------------------------------
+    New page break area - LinkUs page
+--------------------------------------------------
+*/
+
+.linksContent {
+    background-color: var(--white-color);
+    margin-top: 24px;
+    border-radius: var(--common-border-radius);
+    -webkit-border-radius: var(--common-border-radius);
+    -moz-border-radius: var(--common-border-radius);
+    -ms-border-radius: var(--common-border-radius);
+    -o-border-radius: var(--common-border-radius);
+    text-align: center;
+    padding: 12px 12px;
+    box-shadow: .5px .5px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.linksContent p {
+    margin-top: 10px;
+    font: 400 14px/1.55 'Poppins', sans-serif;
+}
+
+.linksContent p a {
+    color: #62646a;
+    text-decoration: underline;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.linksContent p a:hover {
+    color: var(--primary-color);
+}
+
+.linksContent .imgs {
+    margin-top: 32px;
+}
+
+.linksContent .imgs ul li:nth-child(even) {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: var(--off-white-color);
+}
+
+.imgs .link {
+    gap: 8px;
+}
+
+.imgs .link .img {
+    width: 40%;
+}
+
+.imgs .link .text {
+    width: 60%;
+}
+
+.imgs .link .text textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding-top: 6px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/*  
+    =============
+    LinkUs_CSSEnd
+    =============
+
+*/

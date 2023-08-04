@@ -1,0 +1,720 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cardInner h5 {
+        font: 400 18px/1.5 'Poppins', sans-serif;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sectionWaysGap {
+        padding: 60px 0;
+    }
+
+    .sectionHeading h3 {
+        font: 700 30px/1.5 'Poppins', sans-serif;
+    }
+
+    #service .mdGap {
+        margin-top: 16px;
+    }
+
+    .serviceInner .img {
+        height: 360px;
+    }
+
+    .serviceInner h5 {
+        font: 400 19px/1.5 'Permanent Marker', 'cursive';
+    }
+
+    .serviceContent {
+        padding: 8px 6px;
+    }
+
+    .serviceContent img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .serviceContent .img::after {
+        width: 48px;
+    }
+
+    .serviceContent h4 {
+        font: 600 21px/1.5 'Poppins', sans-serif;
+    }
+
+    .serviceContent p {
+        font: 500 13px/1.5 'Poppins', sans-serif;
+    }
+
+    .arkServerContent h3 {
+        font: 700 30px/1.5 'Poppins', sans-serif;
+    }
+
+    .arkServerContent p {
+        margin: 12px 0;
+        font: 400 15px/1.5 'Poppins', sans-serif;
+    }
+
+    .footerService ul li a {
+        font: 400 15px/1.5 'Poppins', sans-serif;
+    }
+
+    .supportMail a {
+        font: 400 15px/1.5 'Poppins', sans-serif;
+    }
+
+    .footerService h4 {
+        font: 600 25px/1.5 'Poppins', sans-serif;
+    }
+
+    .mAc .col-md-3 {
+        padding: 0 4px;
+    }
+
+    .cardInner h5 {
+        padding: 12px 0;
+        font: 400 17px/1.5 'Poppins', sans-serif;
+    }
+
+    .btnModelOne {
+        padding: 6px 18px;
+        gap: 4px;
+        font-size: 15px;
+    }
+
+    #gameServer .sectionHeading {
+        padding-bottom: 20px;
+    }
+
+    #gameServer .sectionGap {
+        padding-top: 16px;
+    }
+
+    .dedicatedServerContent .heading {
+        font: 600 23px/1.5 'Poppins', sans-serif;
+    }
+
+    #dedicatedServer .gap {
+        margin-top: 32px;
+    }
+
+    .specialOfferBanner img {
+        height: 320px;
+    }
+
+    .specialOfferText {
+        margin-top: 20px;
+    }
+
+    .specialOfferText p {
+        font: 400 16px/1.55 'Poppins', sans-serif;
+    }
+
+    .aboutContent h1 {
+        font: 700 46px/1.5 'Poppins', sans-serif;
+        margin-bottom: 2px;
+    }
+
+    .aboutContent h2 {
+        font: 600 39px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h3 {
+        font: 600 30px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h4 {
+        font: 600 25px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h5 {
+        font: 500 19px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent p {
+        margin-top: 4px;
+        font: 400 16px/1.5 'Poppins', sans-serif;
+    }
+
+    .contactForm {
+        margin-top: 24px;
+    }
+
+    .contactDetail h4 {
+        font: 500 25px/1.55 'Poppins', sans-serif;
+    }
+
+    .mailAddress h5 {
+        font: 300 19px/1.55 'Poppins', sans-serif;
+    }
+
+    label {
+        font: 500 17px/1.55 'Poppins', sans-serif;
+    }
+
+    .sponsorContent h4 {
+        font-size: 24px;
+    }
+
+    .sponsorContent p {
+        font: 400 15px/1.55 'Poppins', sans-serif;
+    }
+
+    .sponsorList ul li {
+        font-size: 15px;
+    }
+
+    .sponsorAction h6 {
+        font: 400 16px/1.55 'Poppins', sans-serif;
+    }
+
+    .pageIntro h2 {
+        font: 200 38px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageIntro h5 {
+        font: 500 18px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent h3 {
+        margin: 28px 0 6px;
+        font: 400 28px/1.5 'Poppins', sans-serif;
+    }
+
+    .pageContent h4 {
+        margin-top: 12px;
+        font: 500 23px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent h5 {
+        margin-top: 8px;
+        font: 400 17px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent h5 {
+        margin-top: 8px;
+        font: 400 18px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent p {
+        margin: 6px 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sectionWaysGap {
+        padding: 48px 0;
+    }
+
+    .sectionHeading h3 {
+        font: 700 26px/1.5 'Poppins', sans-serif;
+    }
+
+    #service .smGap {
+        margin-top: 16px;
+    }
+
+    #service .smRow {
+        justify-content: center;
+    }
+
+    .serviceContent img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .serviceContent .img::after {
+        width: 40px;
+    }
+
+    .serviceContent h4 {
+        font: 600 20px/1.5 'Poppins', sans-serif;
+    }
+
+    .serviceContent p {
+        font: 500 13px/1.5 'Poppins', sans-serif;
+    }
+
+    .serviceInner .img {
+        height: 340px;
+    }
+
+    .serviceInner h5 {
+        font: 400 17px/1.5 'Permanent Marker', 'cursive';
+    }
+
+    .arkServerContent h3 {
+        font: 700 26px/1.5 'Poppins', sans-serif;
+    }
+
+    .arkServerContent p {
+        margin: 12px 0;
+        font: 400 15px/1.5 'Poppins', sans-serif;
+    }
+
+    .btnModelOne {
+        padding: 6px 16px;
+        gap: 4px;
+        font-size: 15px;
+    }
+
+    .footerService h4 {
+        font: 600 23px/1.5 'Poppins', sans-serif;
+    }
+
+    .mAc .col-6 {
+        padding: 0 6px;
+    }
+
+    .mAc .mac {
+        margin-top: 14px;
+    }
+
+    .cardInner h5 {
+        padding: 12px 0;
+        font: 400 16px/1.5 'Poppins', sans-serif;
+    }
+
+    #gameServer .sectionHeading {
+        padding-bottom: 20px;
+    }
+
+    #gameServer .sectionGap {
+        padding-top: 16px;
+    }
+
+    .dedicatedServerContent .heading {
+        font: 600 20px/1.5 'Poppins', sans-serif;
+    }
+
+    #dedicatedServer .gap {
+        margin-top: 24px;
+    }
+
+    .specialOfferBanner img {
+        height: 280px;
+    }
+
+    .specialOfferText {
+        margin-top: 16px;
+    }
+
+    .specialOfferText p {
+        font: 400 15px/1.55 'Poppins', sans-serif;
+    }
+
+    #aboutUs .sectionGap {
+        padding-top: 14px;
+    }
+
+    .aboutContent h1 {
+        font: 700 42px/1.5 'Poppins', sans-serif;
+        margin-bottom: 2px;
+    }
+
+    .aboutContent h2 {
+        font: 600 35px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h3 {
+        font: 600 27px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h4 {
+        font: 600 23px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h5 {
+        font: 500 17px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent p {
+        margin-top: 4px;
+        font: 400 15px/1.5 'Poppins', sans-serif;
+    }
+
+    .contactForm {
+        margin-top: 20px;
+    }
+
+    .contactDetail h4 {
+        margin-bottom: 12px;
+        font: 500 23px/1.55 'Poppins', sans-serif;
+    }
+
+    .mailAddress h5 {
+        font: 300 17px/1.55 'Poppins', sans-serif;
+    }
+
+    label {
+        font: 500 16px/1.55 'Poppins', sans-serif;
+    }
+
+    .sponsorContent h4 {
+        font-size: 21px;
+    }
+
+    .sponsorContent p {
+        font: 400 14px/1.55 'Poppins', sans-serif;
+    }
+
+    .sponsorList ul li {
+        font-size: 14px;
+    }
+
+    .sponsorAction h6 {
+        font: 400 15px/1.55 'Poppins', sans-serif;
+    }
+
+    .pageIntro h2 {
+        font: 200 32px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageIntro h5 {
+        font: 500 17px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent h3 {
+        margin: 28px 0 6px;
+        font: 400 24px/1.5 'Poppins', sans-serif;
+    }
+
+    .pageContent h4 {
+        margin-top: 12px;
+        font: 500 21px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent h5 {
+        margin-top: 8px;
+        font: 400 17px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent p {
+        margin: 6px 0;
+    }
+
+    
+}
+
+@media (min-width: 381px) and (max-width: 575.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+    .myNavbar button {
+        border: 1px solid #333;
+    }
+
+    .myNavbar button i {
+        color: #333;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footerService h4 {
+        margin-top: 16px;
+    }
+
+    .copyRight span {
+        font: 500 14px/1.5 'Poppins', sans-serif;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .myNavbar .myLogo img {
+        width: 64px;
+    }
+
+    .mainHeaderUl li a {
+        font: 600 15px/1.55 'Poppins', sans-serif;
+    }
+
+    .sectionWaysGap {
+        padding: 40px 0;
+    }
+
+    .sectionGap {
+        padding-top: 32px;
+    }
+
+    .sectionHeading h3 {
+        font: 700 23px/1.5 'Poppins', sans-serif;
+    }
+
+    #service .smGap {
+        margin-top: 16px;
+    }
+
+    #service .smRow {
+        justify-content: center;
+    }
+
+    .serviceContent img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .serviceContent .img::after {
+        width: 40px;
+    }
+
+    .serviceContent h4 {
+        font: 600 19px/1.5 'Poppins', sans-serif;
+    }
+
+    .serviceContent p {
+        font: 500 13px/1.5 'Poppins', sans-serif;
+    }
+
+    .serviceInner .img {
+        height: 320px;
+    }
+
+    .serviceInner h5 {
+        font: 400 16px/1.5 'Permanent Marker', 'cursive';
+    }
+
+    .arkServerContent h3 {
+        font: 700 21px/1.5 'Poppins', sans-serif;
+    }
+
+    .arkServerContent p {
+        margin: 12px 0;
+        font: 400 14px/1.5 'Poppins', sans-serif;
+    }
+
+    .btnModelOne {
+        padding: 6px 16px;
+        gap: 4px;
+        font-size: 15px;
+    }
+
+    .footerService h4 {
+        font: 600 23px/1.5 'Poppins', sans-serif;
+    }
+
+    .mAc .col-6 {
+        padding: 0 6px;
+    }
+
+    .mAc .mac {
+        margin-top: 14px;
+    }
+
+    #gameServer .sectionHeading {
+        padding-bottom: 20px;
+    }
+
+    #gameServer .sectionGap {
+        padding-top: 16px;
+    }
+
+    .cardInner h5 {
+        padding: 10px 0;
+        font: 400 15px/1.5 'Poppins', sans-serif;
+    }
+
+    .dedicatedServerContent .heading {
+        font: 600 18px/1.5 'Poppins', sans-serif;
+    }
+
+    .dedicatedServerContent ul li p {
+        font: 400 15px/1.55 'Poppins', sans-serif;
+    }
+
+    #dedicatedServer .gap {
+        margin-top: 20px;
+    }
+
+    .specialOfferBanner img {
+        height: 240px;
+    }
+
+    .specialOfferText {
+        margin-top: 12px;
+    }
+
+    .specialOfferText p {
+        font: 400 14px/1.55 'Poppins', sans-serif;
+    }
+
+    #aboutUs .sectionGap {
+        padding-top: 14px;
+    }
+
+    .aboutContent h1 {
+        font: 700 38px/1.5 'Poppins', sans-serif;
+        margin-bottom: 2px;
+    }
+
+    .aboutContent h2 {
+        font: 600 31px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h3 {
+        font: 600 22px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h4 {
+        font: 600 19px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent h5 {
+        font: 500 16px/1.5 'Poppins', sans-serif;
+    }
+
+    .aboutContent p {
+        margin-top: 4px;
+        font: 400 14px/1.5 'Poppins', sans-serif;
+    }
+
+    .contactForm {
+        margin-top: 16px;
+    }
+
+    .contactDetail h4 {
+        margin-bottom: 10px;
+        font: 500 21px/1.55 'Poppins', sans-serif;
+    }
+
+    .mailAddress h5 {
+        font: 300 16px/1.55 'Poppins', sans-serif;
+    }
+
+    label {
+        font: 500 16px/1.55 'Poppins', sans-serif;
+    }
+
+    .contactForm textarea {
+        height: 120px;
+    }
+
+    .sponsorContent h4 {
+        font-size: 19px;
+    }
+
+    .sponsorContent p {
+        font: 400 14px/1.55 'Poppins', sans-serif;
+    }
+
+    .sponsorList ul li {
+        font-size: 14px;
+    }
+
+    .sponsorAction h6 {
+        font: 400 15px/1.55 'Poppins', sans-serif;
+    }
+
+    .pageIntro h2 {
+        font: 200 28px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageIntro h5 {
+        font: 500 16px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent h3 {
+        margin: 20px 0 6px;
+        font: 400 21px/1.5 'Poppins', sans-serif;
+    }
+
+    .pageContent h4 {
+        margin-top: 10px;
+        font: 500 19px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent h5 {
+        margin-top: 8px;
+        font: 400 17px/1.3 'Poppins', sans-serif;
+    }
+
+    .pageContent p {
+        margin: 6px 0;
+    }
+
+    .footerService ul {
+        margin-top: 8px;
+    }
+
+    .footerService ul li a {
+        font: 400 15px/1.5 'Poppins', sans-serif;
+    }
+
+    .paymentOption ul img {
+        width: 40px;
+    }
+
+    .supportMail a {
+        font: 400 16px/1.5 'Poppins', sans-serif;
+    }
+
+    .link.d-flex {
+        display: block !important;
+    }
+
+    .link .img {
+        width: 100% !important;
+    }
+
+    .link .text {
+        margin-top: 12px;
+        width: 100% !important;
+    }
+
+    .linksContent {
+        margin-top: 0px;
+    }
+
+    .imgs .link .text textarea {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 380.98px) {
+    .sectionHeading h3 {
+        font: 700 21px/1.5 'Poppins', sans-serif;
+    }
+
+    .serviceInner .img {
+        height: 240px;
+    }
+
+    .serviceInner h5 {
+        font: 400 15px/1.5 'Permanent Marker', 'cursive';
+    }
+
+    .footerService ul {
+        margin-top: 0px;
+    }
+
+    .footerSocialLinks ul li a {
+        font-size: 28px;
+    }
+
+    .footerService h4 {
+        font: 600 21px/1.5 'Poppins', sans-serif;
+    }
+
+    .paymentOption ul img {
+        width: 36px;
+    }
+
+    .aboutContent h1 {
+        font: 700 34px/1.5 'Poppins', sans-serif;
+        margin-bottom: 2px;
+    }
+
+    .aboutContent h2 {
+        font: 600 29px/1.5 'Poppins', sans-serif;
+    }
+
+    .formBackground {
+        margin-top: 20px;
+    }
+
+    .mailAddress .inFlex a {
+        font-size: 14px;
+    }
+}
